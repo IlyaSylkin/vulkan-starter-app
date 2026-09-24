@@ -26,6 +26,7 @@ Run either one of the CMake lines to download dependencies and configure the pro
 ```bash
 cmake --preset debug      # for GNU/Linux (GCC/Clang)
 cmake --preset msvc-debug # for Windows (Visual Studio 2019)
+cmake --preset mingw-debug # for Windows (MinGW)
 ```
 
 If you wish to build in `release` mode, change `debug` to `release`.
