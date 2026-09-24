@@ -71,7 +71,7 @@ FetchContent_MakeAvailable(
 	imgui
 )
 
-target_compile_definitions(${PROJECT_NAME} PRIVATE GLFW_INCLUDE_NONE)
+target_compile_definitions(${PROJECT_NAME} PRIVATE GLFW_INCLUDE_NONE=)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
 	glfw
